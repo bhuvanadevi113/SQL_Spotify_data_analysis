@@ -1,0 +1,39 @@
+Problem Statement:
+Spotify wants to enhance user engagement by optimizing shuffle mode and improving track completion rates. To achieve this, they need to understand how shuffle mode affects listening behavior, identify patterns in track interruptions, and explore platform specific performance trends.
+
+Task:
+As a junior analyst, your role is to analyze the dataset and answer the following specific business questions:
+
+Business Questions
+Impact of shuffle mode on listening behavior:
+Do users play a more diverse range of tracks when shuffle mode is enabled?
+What percentage of tracks played in shuffle mode are interrupted (reason_end)?
+Which platforms have the highest shuffle mode usage?
+
+
+Track completion rates:
+What percentage of tracks are stopped early versus completed?
+Are there specific tracks or artists with consistently high interruption rates?
+Does the platform or shuffle mode influence track completion rates?
+
+
+Platform usage trends:
+Which platforms have the longest average playback duration?
+Are there specific hours or days where platform usage peaks?
+
+Timestamp based insights:
+What are the most popular hours for streaming across different platforms?
+Which tracks are most frequently played during peak hours?
+
+Deliverables
+Key Metrics:
+Shuffle mode diversity ratio
+Track interruption/completion rates by platform and shuffle usage
+Platform specific playback trends (duration, peak times)
+
+SQL Queries:
+Queries showcasing the use of JOINs to combine platform, timestamp, and track data
+CTEs to simplify calculations, such as track completion rates and shuffle mode diversity
+
+Report:
+A detailed analysis with charts and recommendations to improve shuffle mode, platform engagement, and track completion rates
